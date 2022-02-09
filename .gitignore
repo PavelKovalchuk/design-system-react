@@ -1,6 +1,8 @@
 node_modules/
 dist/
 lib/
+storybook-static/
+build-storybook.log
 
 # IDE - VSCode
 .vscode/*
