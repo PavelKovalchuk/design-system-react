@@ -1,6 +1,6 @@
 import React from 'react'
 import Select from './Select'
-import { withA11Y } from '@storybook/addon-a11y'
+import { withA11y } from '@storybook/addon-a11y'
 
 // css
 import '@ds.e/scss/lib/Select.css'
@@ -18,7 +18,7 @@ const options = [{
 
 export default {
     title: 'Molecules|Select',
-    decorators: [withA11Y]
+    decorators: [withA11y]
 }
 
 export const Common = () => <Select options={options} />
